@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB5BD141C2814EB00178432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5BD131C2814EB00178432 /* main.m */; };
+		CBB5BD171C2814EB00178432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5BD161C2814EB00178432 /* AppDelegate.m */; };
+		CBB5BD1A1C2814EB00178432 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5BD191C2814EB00178432 /* MasterViewController.m */; };
+		CBB5BD1D1C2814EB00178432 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5BD1C1C2814EB00178432 /* DetailViewController.m */; };
+		CBB5BD201C2814EB00178432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB5BD1E1C2814EB00178432 /* Main.storyboard */; };
+		CBB5BD221C2814EB00178432 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB5BD211C2814EB00178432 /* Images.xcassets */; };
+		CBB5BD251C2814EB00178432 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB5BD231C2814EB00178432 /* LaunchScreen.xib */; };
+		CBB5BD311C2814EB00178432 /* LZCustomSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5BD301C2814EB00178432 /* LZCustomSegueTests.m */; };
+		CBB5BD3C1C28153400178432 /* LZCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5BD3B1C28153400178432 /* LZCustomSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBB5BD2B1C2814EB00178432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB5BD061C2814EB00178432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB5BD0D1C2814EB00178432;
+			remoteInfo = LZCustomSegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBB5BD0E1C2814EB00178432 /* LZCustomSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZCustomSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB5BD121C2814EB00178432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB5BD131C2814EB00178432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBB5BD151C2814EB00178432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBB5BD161C2814EB00178432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBB5BD181C2814EB00178432 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CBB5BD191C2814EB00178432 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CBB5BD1B1C2814EB00178432 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CBB5BD1C1C2814EB00178432 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CBB5BD1F1C2814EB00178432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBB5BD211C2814EB00178432 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBB5BD241C2814EB00178432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBB5BD2A1C2814EB00178432 /* LZCustomSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCustomSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB5BD2F1C2814EB00178432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB5BD301C2814EB00178432 /* LZCustomSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCustomSegueTests.m; sourceTree = "<group>"; };
+		CBB5BD3A1C28153400178432 /* LZCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCustomSegue.h; sourceTree = "<group>"; };
+		CBB5BD3B1C28153400178432 /* LZCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCustomSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB5BD0B1C2814EB00178432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB5BD271C2814EB00178432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB5BD051C2814EB00178432 = {
+			isa = PBXGroup;
+			children = (
+				CBB5BD101C2814EB00178432 /* LZCustomSegue */,
+				CBB5BD2D1C2814EB00178432 /* LZCustomSegueTests */,
+				CBB5BD0F1C2814EB00178432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB5BD0F1C2814EB00178432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB5BD0E1C2814EB00178432 /* LZCustomSegue.app */,
+				CBB5BD2A1C2814EB00178432 /* LZCustomSegueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB5BD101C2814EB00178432 /* LZCustomSegue */ = {
+			isa = PBXGroup;
+			children = (
+				CBB5BD151C2814EB00178432 /* AppDelegate.h */,
+				CBB5BD161C2814EB00178432 /* AppDelegate.m */,
+				CBB5BD181C2814EB00178432 /* MasterViewController.h */,
+				CBB5BD191C2814EB00178432 /* MasterViewController.m */,
+				CBB5BD1B1C2814EB00178432 /* DetailViewController.h */,
+				CBB5BD1C1C2814EB00178432 /* DetailViewController.m */,
+				CBB5BD1E1C2814EB00178432 /* Main.storyboard */,
+				CBB5BD211C2814EB00178432 /* Images.xcassets */,
+				CBB5BD231C2814EB00178432 /* LaunchScreen.xib */,
+				CBB5BD111C2814EB00178432 /* Supporting Files */,
+				CBB5BD3A1C28153400178432 /* LZCustomSegue.h */,
+				CBB5BD3B1C28153400178432 /* LZCustomSegue.m */,
+			);
+			path = LZCustomSegue;
+			sourceTree = "<group>";
+		};
+		CBB5BD111C2814EB00178432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB5BD121C2814EB00178432 /* Info.plist */,
+				CBB5BD131C2814EB00178432 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBB5BD2D1C2814EB00178432 /* LZCustomSegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB5BD301C2814EB00178432 /* LZCustomSegueTests.m */,
+				CBB5BD2E1C2814EB00178432 /* Supporting Files */,
+			);
+			path = LZCustomSegueTests;
+			sourceTree = "<group>";
+		};
+		CBB5BD2E1C2814EB00178432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB5BD2F1C2814EB00178432 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB5BD0D1C2814EB00178432 /* LZCustomSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB5BD341C2814EB00178432 /* Build configuration list for PBXNativeTarget "LZCustomSegue" */;
+			buildPhases = (
+				CBB5BD0A1C2814EB00178432 /* Sources */,
+				CBB5BD0B1C2814EB00178432 /* Frameworks */,
+				CBB5BD0C1C2814EB00178432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZCustomSegue;
+			productName = LZCustomSegue;
+			productReference = CBB5BD0E1C2814EB00178432 /* LZCustomSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBB5BD291C2814EB00178432 /* LZCustomSegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB5BD371C2814EB00178432 /* Build configuration list for PBXNativeTarget "LZCustomSegueTests" */;
+			buildPhases = (
+				CBB5BD261C2814EB00178432 /* Sources */,
+				CBB5BD271C2814EB00178432 /* Frameworks */,
+				CBB5BD281C2814EB00178432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB5BD2C1C2814EB00178432 /* PBXTargetDependency */,
+			);
+			name = LZCustomSegueTests;
+			productName = LZCustomSegueTests;
+			productReference = CBB5BD2A1C2814EB00178432 /* LZCustomSegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB5BD061C2814EB00178432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.comst1314;
+				TargetAttributes = {
+					CBB5BD0D1C2814EB00178432 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CBB5BD291C2814EB00178432 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CBB5BD0D1C2814EB00178432;
+					};
+				};
+			};
+			buildConfigurationList = CBB5BD091C2814EB00178432 /* Build configuration list for PBXProject "LZCustomSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBB5BD051C2814EB00178432;
+			productRefGroup = CBB5BD0F1C2814EB00178432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB5BD0D1C2814EB00178432 /* LZCustomSegue */,
+				CBB5BD291C2814EB00178432 /* LZCustomSegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB5BD0C1C2814EB00178432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB5BD201C2814EB00178432 /* Main.storyboard in Resources */,
+				CBB5BD251C2814EB00178432 /* LaunchScreen.xib in Resources */,
+				CBB5BD221C2814EB00178432 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB5BD281C2814EB00178432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB5BD0A1C2814EB00178432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB5BD171C2814EB00178432 /* AppDelegate.m in Sources */,
+				CBB5BD3C1C28153400178432 /* LZCustomSegue.m in Sources */,
+				CBB5BD1A1C2814EB00178432 /* MasterViewController.m in Sources */,
+				CBB5BD141C2814EB00178432 /* main.m in Sources */,
+				CBB5BD1D1C2814EB00178432 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB5BD261C2814EB00178432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB5BD311C2814EB00178432 /* LZCustomSegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBB5BD2C1C2814EB00178432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB5BD0D1C2814EB00178432 /* LZCustomSegue */;
+			targetProxy = CBB5BD2B1C2814EB00178432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBB5BD1E1C2814EB00178432 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB5BD1F1C2814EB00178432 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBB5BD231C2814EB00178432 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB5BD241C2814EB00178432 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB5BD321C2814EB00178432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBB5BD331C2814EB00178432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB5BD351C2814EB00178432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZCustomSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBB5BD361C2814EB00178432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZCustomSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBB5BD381C2814EB00178432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZCustomSegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZCustomSegue.app/LZCustomSegue";
+			};
+			name = Debug;
+		};
+		CBB5BD391C2814EB00178432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZCustomSegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZCustomSegue.app/LZCustomSegue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB5BD091C2814EB00178432 /* Build configuration list for PBXProject "LZCustomSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB5BD321C2814EB00178432 /* Debug */,
+				CBB5BD331C2814EB00178432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB5BD341C2814EB00178432 /* Build configuration list for PBXNativeTarget "LZCustomSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB5BD351C2814EB00178432 /* Debug */,
+				CBB5BD361C2814EB00178432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBB5BD371C2814EB00178432 /* Build configuration list for PBXNativeTarget "LZCustomSegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB5BD381C2814EB00178432 /* Debug */,
+				CBB5BD391C2814EB00178432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB5BD061C2814EB00178432 /* Project object */;
+}
